@@ -1,0 +1,1 @@
+Get-Alias -Definition Get-ChildItem

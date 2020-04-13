@@ -1,0 +1,1 @@
+Enable-ExperimentalFeature -Name PSCommandNotFoundSuggestion

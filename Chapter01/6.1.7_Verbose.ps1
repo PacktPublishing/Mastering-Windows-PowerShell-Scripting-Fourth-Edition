@@ -1,0 +1,1 @@
+Start-Process notepad -Verbose -PassThru | Stop-Process -Verbose
