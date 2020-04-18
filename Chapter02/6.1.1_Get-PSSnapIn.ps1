@@ -1,0 +1,1 @@
+Get-PSSnapIn -Registered
