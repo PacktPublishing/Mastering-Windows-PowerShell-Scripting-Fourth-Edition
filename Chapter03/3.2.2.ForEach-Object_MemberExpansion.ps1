@@ -1,0 +1,1 @@
+Get-Process | ForEach-Object Path
