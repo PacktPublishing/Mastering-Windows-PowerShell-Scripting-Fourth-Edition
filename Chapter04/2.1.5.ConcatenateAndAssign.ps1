@@ -1,0 +1,2 @@
+$string = 'one'
+$string += 'one'
