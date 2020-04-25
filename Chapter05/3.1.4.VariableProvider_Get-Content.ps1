@@ -1,0 +1,1 @@
+Get-COntent variable:\OutputEncoding

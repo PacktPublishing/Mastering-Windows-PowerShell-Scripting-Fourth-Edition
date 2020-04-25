@@ -1,0 +1,1 @@
+$stack.Pop()    # This returns Under the bridge

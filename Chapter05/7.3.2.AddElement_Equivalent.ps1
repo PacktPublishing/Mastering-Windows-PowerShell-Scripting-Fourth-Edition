@@ -1,0 +1,1 @@
+$myArray = $myArray + "New value"

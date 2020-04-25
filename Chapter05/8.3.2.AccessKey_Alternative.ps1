@@ -1,0 +1,1 @@
+$hashtable = @{1 = 'one'}

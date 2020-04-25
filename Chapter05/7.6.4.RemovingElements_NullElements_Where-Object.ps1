@@ -1,0 +1,1 @@
+$myArray | Where-Object { $_ } | ForEach-Object { Write-Host $_ }

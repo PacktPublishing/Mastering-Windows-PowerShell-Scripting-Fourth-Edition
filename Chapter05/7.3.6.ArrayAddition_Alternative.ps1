@@ -1,0 +1,4 @@
+$mergedArray = @(
+    $firstArray
+    $secondArray
+)

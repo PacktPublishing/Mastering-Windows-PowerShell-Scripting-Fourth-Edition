@@ -1,0 +1,2 @@
+$myArray = @()
+$myArray += "New value"

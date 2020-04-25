@@ -1,0 +1,1 @@
+$newArray = $oldArray | Where-Object { $_ -ne 50 }

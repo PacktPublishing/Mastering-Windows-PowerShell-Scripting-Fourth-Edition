@@ -1,0 +1,1 @@
+$index = $list.FindIndex( { $args[0] -eq 'Richard' } )
