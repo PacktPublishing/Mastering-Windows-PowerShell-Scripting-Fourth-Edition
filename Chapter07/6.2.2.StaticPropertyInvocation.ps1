@@ -1,0 +1,1 @@
+[System.Text.Encoding]::ASCII

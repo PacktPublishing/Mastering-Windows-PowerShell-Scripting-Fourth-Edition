@@ -1,0 +1,1 @@
+[System.IO.Path]::ChangeExtension("C:\none.exe", "bak")
