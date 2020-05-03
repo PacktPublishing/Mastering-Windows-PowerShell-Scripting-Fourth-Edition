@@ -1,0 +1,1 @@
+('azzz', 'bzzz', 'czzz').Trim('z')

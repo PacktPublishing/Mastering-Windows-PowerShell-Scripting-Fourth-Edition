@@ -1,0 +1,1 @@
+'Michael Caine', 'Benny Hill', 'Raf Vallone' | Convert-String -Example 'First Second=FSecond'
