@@ -1,0 +1,1 @@
+'domain\user' -match 'domain\.+'

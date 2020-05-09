@@ -1,0 +1,1 @@
+'domain\user' -replace 'domain\\', 'newdomain\'

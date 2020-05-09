@@ -1,0 +1,1 @@
+'bcd' -match 'a*'   # Returns true, matches nothing

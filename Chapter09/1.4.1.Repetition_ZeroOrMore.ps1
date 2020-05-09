@@ -1,0 +1,1 @@
+'aaabc' -match 'a*'# Returns true, matches 'aaa'
