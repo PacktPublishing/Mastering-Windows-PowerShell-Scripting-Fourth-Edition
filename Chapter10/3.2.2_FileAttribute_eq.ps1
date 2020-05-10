@@ -1,0 +1,1 @@
+[System.IO.FileAttributes]'ReadOnly, Hidden' -eq 3

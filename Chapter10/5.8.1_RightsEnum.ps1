@@ -1,0 +1,1 @@
+[System.Security.AccessControl.FileSystemRights].GetEnumNames()
