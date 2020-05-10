@@ -1,0 +1,1 @@
+Get-CimInstance Win32_Process -Filter "ExecutablePath='C:\\Windows\\Explorer.exe'"

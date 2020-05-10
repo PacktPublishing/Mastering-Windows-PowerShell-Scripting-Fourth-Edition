@@ -1,0 +1,1 @@
+$security = Get-CimInstance Win32_LogicalShareSecuritySetting -Filter "Name='WmiPerms'"
