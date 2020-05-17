@@ -1,0 +1,1 @@
+([Xml]$string).SelectNodes('//car[colour="Green"]/engine')

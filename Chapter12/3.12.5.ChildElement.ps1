@@ -1,0 +1,5 @@
+$reader = [System.Xml.XmlNodeReader]$xml.SelectSingleNode('//engine')
+$schemaSet = $xmlSchemaInference.InferSchema($reader)
+$writer = [System.IO.StringWriter]::new()
+$schemaSet.Schemas()[0].Write($writer)
+$writer.ToString()

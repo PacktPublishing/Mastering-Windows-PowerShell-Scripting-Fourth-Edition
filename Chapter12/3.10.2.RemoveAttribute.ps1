@@ -1,0 +1,1 @@
+$xml.list.RemoveAttribute('type')
