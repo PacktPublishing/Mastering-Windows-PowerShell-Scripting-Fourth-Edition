@@ -1,0 +1,1 @@
+$searchCondition = [SOAP.SearchCondition]::new()

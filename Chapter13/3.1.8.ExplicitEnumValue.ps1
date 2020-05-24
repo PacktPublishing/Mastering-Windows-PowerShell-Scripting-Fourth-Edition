@@ -1,0 +1,1 @@
+$service.GetElementsByGroup([SOAP.Group]::Nonmetal)
