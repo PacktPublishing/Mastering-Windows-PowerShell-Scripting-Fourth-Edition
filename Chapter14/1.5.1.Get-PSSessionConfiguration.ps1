@@ -1,0 +1,1 @@
+Get-PSSessionConfiguration Microsoft.PowerShell

@@ -1,0 +1,1 @@
+Set-WSManQuickConfig -UseSSL

@@ -1,0 +1,1 @@
+Get-Item WSMan:\localhost\Client\TrustedHosts

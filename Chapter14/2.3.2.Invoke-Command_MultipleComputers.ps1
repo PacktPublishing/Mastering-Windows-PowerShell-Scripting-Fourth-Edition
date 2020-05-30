@@ -1,0 +1,1 @@
+Invoke-Command { Get-Process -Id $PID } -ComputerName 'first', 'second', 'third'

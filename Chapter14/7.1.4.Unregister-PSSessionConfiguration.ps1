@@ -1,0 +1,1 @@
+Unregister-PSSessionConfiguration -Name 'JEATest'
