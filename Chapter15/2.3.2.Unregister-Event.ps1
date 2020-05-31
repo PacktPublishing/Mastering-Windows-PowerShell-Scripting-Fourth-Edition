@@ -1,0 +1,1 @@
+Get-EventSubscriber | Unregister-Event

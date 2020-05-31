@@ -1,0 +1,1 @@
+$psInstance = [PowerShell]::Create()

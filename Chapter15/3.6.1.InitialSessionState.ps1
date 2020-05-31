@@ -1,0 +1,1 @@
+$initialSessionState = [InitialSessionState]::CreateDefault2()
