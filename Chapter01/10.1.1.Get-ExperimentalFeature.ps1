@@ -1,1 +1,1 @@
-Get-ExperimentalFeature | Select-Object Name, Enabled
+Get-ExperimentalFeature

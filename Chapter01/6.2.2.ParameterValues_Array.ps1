@@ -1,1 +1,0 @@
-Get-Process -Name powershell, explorer, smss

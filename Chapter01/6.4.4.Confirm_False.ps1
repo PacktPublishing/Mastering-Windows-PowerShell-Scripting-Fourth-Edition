@@ -1,1 +1,0 @@
-Remove-Item .\IMadeThisUp.txt -Confirm:$false

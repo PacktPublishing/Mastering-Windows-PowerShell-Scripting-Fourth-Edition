@@ -1,1 +1,1 @@
-Get-ExperimentalFeature | Format-List Name, Description
+Get-ExperimentalFeature | Format-Table Name, Description -Wrap
