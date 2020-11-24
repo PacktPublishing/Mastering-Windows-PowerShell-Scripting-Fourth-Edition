@@ -1,5 +1,1 @@
-$result = if ($value) {
-    1
-} else {
-    2
-}
+$result = $value ? 1 : 2

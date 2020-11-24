@@ -1,1 +1,1 @@
-$job | Receive-Job
+$job = Get-Process &
