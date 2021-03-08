@@ -4,11 +4,12 @@ Get-ChildItem C:\Windows\Assembly -Filter *.dll -Recurse |
     Sort-Object Name -Descending |
     Select-Object Name, Count -First 6
 
-# Name                                               Count
-# ----                                               -----
-# WindowsBase.ni.dll, 4970496                          2
-# System.Xml.ni.dll, 6968320                           2
-# System.Windows.Interactivity.ni.dll, 121856          2
-# System.Windows.Forms.ni.dll, 17390080                2
-# System.Web.ni.dll, 16481792                          2
-# System.Web.ni.dll, 13605888                          2
+# Expects output similar to:
+#
+# Name                                                 Count
+# ----                                                 -----
+# WindowsFormsIntegration.Package.ni.dll, 100352           2
+# Templates.Editorconfig.Wizard.resources.ni.dll, 9216    13
+# Templates.Editorconfig.Wizard.resources.ni.dll, 8192    13
+# System.Web.ni.dll, 16939008                              2
+# System.Web.ni.dll, 14463488                              2

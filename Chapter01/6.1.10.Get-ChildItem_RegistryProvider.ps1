@@ -1,1 +1,1 @@
-Get-ChildItem FileSystem::C:\Windows
+Get-ChildItem registry::

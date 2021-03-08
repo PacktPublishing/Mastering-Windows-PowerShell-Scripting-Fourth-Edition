@@ -1,6 +1,6 @@
 Get-Content C:\Windows\WindowsUpdate.log | Measure-Object -Line -Word -Character
 
-# Expects output:
+# Expects output similar to:
 #
 # Lines    Words    Characters    Property
 # -----    -----    ----------    --------

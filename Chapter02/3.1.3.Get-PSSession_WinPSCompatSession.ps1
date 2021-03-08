@@ -1,1 +1,0 @@
-Get-PSSession -Name WinPSCompatSession

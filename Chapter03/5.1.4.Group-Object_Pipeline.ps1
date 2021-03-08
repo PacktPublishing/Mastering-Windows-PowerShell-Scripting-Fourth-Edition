@@ -4,7 +4,7 @@ Get-ChildItem C:\Windows\Assembly -Filter *.dll -Recurse |
     Sort-Object Count, Name -Descending |
     Select-Object Name, Count -First 5
 
-# Expects output:
+# Expects output similar to:
 #
 # Name                                                   Count
 # ----                                                   -----

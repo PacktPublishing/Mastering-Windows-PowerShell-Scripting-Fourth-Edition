@@ -1,1 +1,0 @@
-Get-Process | Where-Object -Property StartTime -Value (Get-Date 17:00:00) -gt

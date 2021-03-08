@@ -1,5 +1,0 @@
-$tcpClient.Connected
-
-# Expects:
-#
-# True
