@@ -1,1 +1,1 @@
-$index = $oldArray.IndexOf(50)
+$newArray = $oldArray -ne 50

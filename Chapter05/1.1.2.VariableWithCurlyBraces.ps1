@@ -1,2 +1,0 @@
-${My Variable}
-${My-Variable}

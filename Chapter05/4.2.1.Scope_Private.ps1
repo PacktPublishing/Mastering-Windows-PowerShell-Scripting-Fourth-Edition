@@ -1,1 +1,0 @@
-$private:thisValue = "Some value"
