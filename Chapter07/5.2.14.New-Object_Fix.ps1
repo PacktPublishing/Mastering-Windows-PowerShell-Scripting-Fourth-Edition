@@ -1,1 +1,0 @@
-$memoryStream = New-Object System.IO.MemoryStream(,$bytes)

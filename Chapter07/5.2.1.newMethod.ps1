@@ -1,1 +1,0 @@
-$stringBuilder = [System.Text.StringBuilder]::new()

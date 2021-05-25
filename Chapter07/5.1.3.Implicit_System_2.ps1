@@ -1,0 +1,1 @@
+[Management.Automation.PowerShell].Assembly

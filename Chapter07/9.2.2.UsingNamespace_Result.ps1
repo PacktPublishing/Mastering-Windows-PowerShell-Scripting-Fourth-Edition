@@ -1,1 +1,0 @@
-[NetworkInterface]::GetAllNetworkInterfaces()

@@ -1,1 +1,0 @@
-[System.Net.NetworkInformation.NetworkInterface]::GetAllNetworkInterfaces()

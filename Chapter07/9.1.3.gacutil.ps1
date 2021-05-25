@@ -1,1 +1,0 @@
-gacutil /l System.Windows.Forms
