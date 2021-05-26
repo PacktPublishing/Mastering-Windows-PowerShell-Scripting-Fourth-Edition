@@ -1,1 +1,1 @@
-'hello'  + ' ' + 'world'
+'good'  + 'bye'

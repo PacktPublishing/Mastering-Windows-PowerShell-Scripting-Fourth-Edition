@@ -1,5 +1,5 @@
 $verbosePreference = 'continue'
- function Test-Redirect {
+function Test-Redirect {
     'This is standard out'
     Write-Information 'This is information'
     Write-Host 'This is information as well'

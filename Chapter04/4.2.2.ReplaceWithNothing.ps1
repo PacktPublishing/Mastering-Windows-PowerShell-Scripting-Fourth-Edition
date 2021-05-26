@@ -1,4 +1,4 @@
-'abababab' -replace 'a' bbbb
+'abababab' -replace 'a'
 
 # Expects output:
 #
