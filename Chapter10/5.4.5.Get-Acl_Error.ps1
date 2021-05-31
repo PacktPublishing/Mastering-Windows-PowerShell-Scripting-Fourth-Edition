@@ -1,1 +1,0 @@
-Get-ChildItem C:\Temp\ACL\3

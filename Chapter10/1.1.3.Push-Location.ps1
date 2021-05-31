@@ -1,0 +1,1 @@
+Push-Location c:\windows

@@ -1,1 +1,0 @@
-[System.IO.FileAttributes]'ReadOnly, Hidden, ReadOnly'
