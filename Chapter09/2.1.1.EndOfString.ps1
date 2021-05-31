@@ -1,1 +1,0 @@
-$env:PATH -split ';' | Where-Object { $_ -match '\\.+\\.+\\.+$' }
