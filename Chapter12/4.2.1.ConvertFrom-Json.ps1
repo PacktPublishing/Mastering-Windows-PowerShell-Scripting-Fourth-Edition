@@ -1,0 +1,1 @@
+'{ "Property": "Value" }' | ConvertFrom-Json
