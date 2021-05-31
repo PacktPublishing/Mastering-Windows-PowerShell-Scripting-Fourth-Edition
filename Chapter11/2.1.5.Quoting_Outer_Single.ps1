@@ -1,1 +1,0 @@
-Get-CimInstance Win32_Process -Filter 'Name="powershell.exe"'

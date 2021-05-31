@@ -1,6 +1,6 @@
 $aclObject.DACL.Trustee
 
-# Expects:
+# Expects output:
 #
 # Domain         :
 # Name           : Everyone

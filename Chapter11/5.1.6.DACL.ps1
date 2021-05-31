@@ -1,6 +1,6 @@
 $aclObject.DACL
 
-# Expects:
+# Expects output:
 #
 # AccessMask              : 1179817
 # AceFlags                : 0
