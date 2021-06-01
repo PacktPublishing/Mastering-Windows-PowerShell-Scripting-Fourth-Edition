@@ -1,4 +1,6 @@
-[System.IO.FileSystemWatcher]::new() | Get-Member -MemberType Event | Select-Object Name
+[System.IO.FileSystemWatcher]::new() |
+    Get-Member -MemberType Event |
+    Select-Object Name
 
 # Expects output:
 #

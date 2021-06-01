@@ -4,7 +4,8 @@ $params = @{
     InputObject = $watcher
     EventName   = 'Changed'
     Action      = {
-        $event.SourceEventArgs | Export-Csv C:\Audit\DataActivity.log -Append
+        $event.SourceEventArgs |
+            Export-Csv C:\Audit\DataActivity.log -Append
     }
 }
 Register-ObjectEvent @params

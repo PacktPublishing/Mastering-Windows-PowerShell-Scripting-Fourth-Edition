@@ -1,7 +1,8 @@
-$asyncResult
+$asyncResult | Format-List
 
 # Expects output:
 #
-# CompletedSynchronously    IsCompleted    AsyncState    AsyncWaitHandle
-# ----------------------    -----------    ----------    ---------------
-#                  False          False                  System.Threading.ManualResetEvent
+# CompletedSynchronously : False
+# IsCompleted            : False
+# AsyncState             :
+# AsyncWaitHandle        : System.Threading.ManualResetEvent
