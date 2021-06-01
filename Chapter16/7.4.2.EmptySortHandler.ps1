@@ -1,0 +1,3 @@
+$sortHandler = {
+    param ( $sender, $eventArgs )
+}
