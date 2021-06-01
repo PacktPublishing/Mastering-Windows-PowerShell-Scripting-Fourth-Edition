@@ -1,4 +1,6 @@
-# Expects a second user to run the command
+# Requires 2.2.2
+# Expects a second console to run the command
+
 Get-PSSession -ComputerName PSTest | Select-Object Name, ComputerName, State
 
 # Expects output similar to:

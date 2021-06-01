@@ -1,3 +1,5 @@
+# Should use Thumbprint generated in 1.4.1
+
 $params = @{
     Path                  = 'WSMan:\localhost\Listener'
     Address               = '*'

@@ -1,1 +1,1 @@
-Get-PSSessionConfiguration Microsoft.PowerShell
+Get-PSSessionConfiguration -Name PowerShell.7*

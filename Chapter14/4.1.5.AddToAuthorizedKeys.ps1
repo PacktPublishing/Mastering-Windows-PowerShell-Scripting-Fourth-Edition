@@ -1,4 +1,5 @@
-# Run on Linux. Paste public key copied from Windows.
+# Run on Linux.
+# Paste public key copied from Windows.
 
 $publicKey = 'ssh-rsa AAAABG...'
 New-Item ~/.ssh -ItemType Directory

@@ -1,6 +1,8 @@
+# Requires 2.1.1
+
 Get-PSSession | Select-Object Id, ComputerName, State
 
-# Assumes a connection was created using New-PSSession. Expects output similar to:
+# Expects output similar to:
 #
 # Id ComputerName State
 # -- ------------ -----

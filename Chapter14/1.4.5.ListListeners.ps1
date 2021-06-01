@@ -1,5 +1,7 @@
 Get-ChildItem WSMan:\localhost\Listener\* |
-    Where-Object { (Get-Item "$($_.PSPath)\Transport").Value -eq 'HTTPS' }
+    Where-Object {
+        (Get-Item "$($_.PSPath)\Transport").Value -eq 'HTTPS'
+    }
 
 # Expects output similar to:
 #
