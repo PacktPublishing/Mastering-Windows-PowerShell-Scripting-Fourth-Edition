@@ -1,6 +1,6 @@
 Get-Help Get-Process –Full
 
-# Expects output to include (output is truncated):
+# Expects output to include (truncated example):
 #
 # INPUTS
 # System.Diagnostics.Process

@@ -1,18 +1,15 @@
-$params = @{
-    Uri         = 'http://localhost:62369/Service.asmx'
-    ContentType = 'text/xml'
-    Method      = 'POST'
-    Body        = '
-        <soapenv:Envelope
-                xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
-                xmlns="http://tempuri.org/">
-            <soapenv:Body>
-                <GetElements />
-            </soapenv:Body>
-        </soapenv:Envelope>
-    '
-}
-$webResponse = Invoke-WebRequest @params
-$xmlResponse = [Xml]$webResponse.Content
-$body = $xmlResponse.Envelope.Body
-$body.GetElementsResponse.GetElementsResult.Element
+# Windows PowerShell only.
+# Requires 3.2.2
+# SimpleSOAP must be running via Visual Studio.
+
+$service.GetElements() | Select-Object -First 5 | Format-Table
+
+# Expects output:
+#
+# AtomicNumber    Symbol    Name         AtomicMass     Group
+# ------------    ------    ----         ----------     -----
+#            1    H         Hydrogen     1.00794(4)     Nonmetal
+#            2    He        Helium       4.002602(2)    NobleGas
+#            3    Li        Lithium      6.941(2)       AlkaliMetal
+#            4    Be        Beryllium    9.012182(3)    AlkalineEarthMetal
+#            5    B         Boron        10.811(7)      Metalloid

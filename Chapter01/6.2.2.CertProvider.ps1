@@ -1,7 +1,7 @@
 Set-Location Cert:\LocalMachine\Root
 Get-ChildItem
 
-# Expects output similar to (output is truncated):
+# Expects output similar to (truncated example):
 #
 #  Directory: Microsoft.PowerShell.Security\Certificate::LocalMachine\Root
 #
