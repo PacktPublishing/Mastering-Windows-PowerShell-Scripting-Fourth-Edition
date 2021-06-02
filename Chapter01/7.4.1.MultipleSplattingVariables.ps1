@@ -12,7 +12,7 @@ $testWSMan = @{
 $newCimSession = @{}
 if (-not (Test-WSMan @testWSMan @remoteParams)) {
     # If WSMan fails, use DCOM (RPC over TCP) to connect
-    $newCimSession.Add('SessionOption', (New-CimSessionOption -Protocol Dcom))
+    $newCimSession['SessionOption'] = New-CimSessionOption -Protocol Dcom
 }
 # Parameters to pass to Get-CimInstance
 $getCimInstance = @{
