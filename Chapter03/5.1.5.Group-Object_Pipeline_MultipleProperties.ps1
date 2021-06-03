@@ -2,7 +2,7 @@ Get-ChildItem C:\Windows\Assembly -Filter *.dll -Recurse |
     Group-Object Name, Length -NoElement |
     Where-Object Count -gt 1 |
     Sort-Object Name -Descending |
-    Select-Object Name, Count -First 6
+    Select-Object Name, Count -First 5
 
 # Expects output similar to:
 #

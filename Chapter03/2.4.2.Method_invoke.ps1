@@ -1,4 +1,4 @@
-$date = Get-Date "01/01/2010"
+$date = Get-Date -Day 1 -Month 1 -Year 2010
 $date.ToLongDateString()
 
 # Expects:

@@ -1,1 +1,1 @@
-Get-Process | Select-Object -Property * -Exclude *Memory*
+Get-Process | Select-Object -Property * -ExcludeProperty *Memory*

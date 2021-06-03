@@ -1,4 +1,4 @@
-Get-ChildItem C:\Windows\Assembly -Filter *.dll -Recurse |
+Get-ChildItem C:\Windows\Assembly -Filter *.dll -File -Recurse |
     Group-Object Name -NoElement |
     Where-Object Count -gt 1 |
     Sort-Object Count, Name -Descending |

@@ -5,6 +5,6 @@
     Write-Host "Adding $_ to value."
     $value += $_
 } -End {
-    Write-Host "Finished the pipeline. Displaying value.”
+    Write-Host "Finished the pipeline. Displaying value."
     $value
 }
