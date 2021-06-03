@@ -1,3 +1,3 @@
-for ($i = 0; $i -le 15; $i++) {
+for ($i = 1; $i -le 15; $i++) {
     Write-Host $i -ForegroundColor $i
 }

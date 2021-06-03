@@ -7,4 +7,4 @@ function Test-Redirect {
     Write-Verbose 'This is verbose'
     Write-Warning 'This is a warning'
 }
-Test-Redirect *> 'alloutput.txt
+Test-Redirect *> 'alloutput.txt'
