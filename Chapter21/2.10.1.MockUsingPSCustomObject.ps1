@@ -1,0 +1,3 @@
+[PSCustomObject]@{
+    Property = "Value"
+}
