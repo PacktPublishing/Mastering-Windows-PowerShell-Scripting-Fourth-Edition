@@ -1,5 +1,5 @@
 $i = 1 # Initial state for i
-while ($i -le 3) {
+do {
     Write-Host "i: $i"
     $k = 1 # Reset k
     while ($k -lt 5) {
@@ -10,18 +10,18 @@ while ($i -le 3) {
         }
     }
     $i++ # Increment i
-}
+} while ($i -le 3)
 
 # Expects output:
 #
 # i: 1
-# k: 1
-# k: 2
+#   k: 1
+#   k: 2
 # i: 2
-# k: 1
-# k: 2
+#   k: 1
+#   k: 2
 # i: 3
-# k: 1
-# k: 2
-# k: 3
-# z: 4
+#   k: 1
+#   k: 2
+#   k: 3
+#   k: 4
