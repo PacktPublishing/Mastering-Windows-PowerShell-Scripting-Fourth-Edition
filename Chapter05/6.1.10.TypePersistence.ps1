@@ -1,6 +1,6 @@
 [String]$thisString = 'A string value'
 $thisString = $null
-$thisString = Get-Process powershell
+$thisString = Get-Process -ID $PID
 $thisString.GetType()
 
 # Expects output:

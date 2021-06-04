@@ -1,4 +1,4 @@
-$newArray = New-Object Object[] ($oldArray.Count - 1)
+$newArray = [Object[]]::new($oldArray.Count - 1)
 # Before the index
 [Array]::Copy(
     $oldArray,    # Source

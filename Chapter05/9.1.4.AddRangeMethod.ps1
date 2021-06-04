@@ -1,1 +1,1 @@
-$list.AddRange(@("Tim", "Robert")
+$list.AddRange(@("Tim", "Robert"))

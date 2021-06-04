@@ -1,4 +1,4 @@
-Get-Content C:\Windows\Temp\variable.txt
+Get-Content -Path C:\Windows\Temp\variable.txt
 
 # Expects output:
 #
