@@ -1,4 +1,5 @@
 [System.Security.AccessControl.FileSystemRights].GetEnumValues() |
+    Select-Object -Unique |
     ForEach-Object {
         [PSCustomObject]@{
             Name   = $_

@@ -1,4 +1,4 @@
-Get-Acl 2 |
+Get-Acl C:\Temp\ACL\2 |
     Select-Object -ExpandProperty Access |
     Select-Object FileSystemRights, IdentityReference, IsInherited
 
