@@ -4,7 +4,7 @@
 #
 # True
 
-$matches
+$matches[0]
 
 # Expects output:
 #

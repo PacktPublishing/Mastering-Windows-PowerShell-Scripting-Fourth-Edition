@@ -1,4 +1,4 @@
-'Ba%by8 a12315tthe1231 k#.,154eyboard' -replace '[^a-z ]'
+'Ba%by8 a12315t the1231 k#.,154eyboard' -replace '[^a-z ]'
 
 # Expects output:
 #
