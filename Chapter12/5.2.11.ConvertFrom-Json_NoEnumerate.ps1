@@ -1,6 +1,6 @@
 $content = @"
 [
-    "Element": { "Value": 1 }
+    { "Element": { "Value": 1 } }
 ]
 "@ | ConvertFrom-Json -NoEnumerate
 $content.GetType()

@@ -2,7 +2,7 @@
 <?xml version="1.0"?>
 <items>
     <item name='Fridge'>
-        <category>Appliancse</category>
+        <category>Appliances</category>
     </item>
     <item name='Cooker'>
         <category>Appliances</category>
