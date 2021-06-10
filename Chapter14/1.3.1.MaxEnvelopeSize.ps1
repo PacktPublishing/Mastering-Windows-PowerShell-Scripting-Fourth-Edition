@@ -1,1 +1,1 @@
-Set-Item WSMan:\localhost\MaxEnvelopeSizekb 1024
+Set-Item WSMan:\localhost\MaxEnvelopeSizekb 8KB

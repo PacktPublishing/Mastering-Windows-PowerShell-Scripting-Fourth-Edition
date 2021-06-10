@@ -8,7 +8,7 @@
 
 $params = @{
     HostName     = 'WindowsSystemNameOrIPAddress'
-    UserName     = 'username'
+    UserName     = $env:USERNAME
     SSHTransport = $true
 }
 Enter-PSSession @params

@@ -1,2 +1,2 @@
 $options = New-PSSessionOption -SkipCACheck
-$session = New-PSSession computerName -SessionOptions $options
+$session = New-PSSession computerName -SessionOption $options
