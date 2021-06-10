@@ -22,7 +22,7 @@ do {
         ConvertFrom-Json |
         Select-Object -ExpandProperty items
 
-    # Retrive the links from the header and find the next URL
+    # Retrieve the links from the header and find the next URL
     if ($response.Headers['link'] -match '<([^>]+?)>;\s*rel="next"') {
         $next = $matches[1]
     } else {

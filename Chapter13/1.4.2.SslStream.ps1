@@ -1,4 +1,8 @@
 # Must be run as a script file for multiple `using namespace` statements to act
+#
+# Alternatively the three `using namespace` statements can be placed on a single line separated by `;` as shown below:
+#
+# using namespace System.Security.Cryptography.X509Certificates; using namespace System.Net.Security; using namespace System.Net.Sockets
 
 using namespace System.Security.Cryptography.X509Certificates
 using namespace System.Net.Security
