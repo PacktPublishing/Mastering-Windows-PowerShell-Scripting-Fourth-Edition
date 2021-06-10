@@ -1,7 +1,9 @@
-$ace = [System.Security.AccessControl.FileSystemAccessRule]::new( 
-    'DOMAIN\User',                      # Identity reference 
-    'FullControl',                      # FileSystemRights 
-    'ContainerInherit, ObjectInherit',  # InheritanceFlags 
-    'None',                             # PropagationFlags 
-    'Allow'                             # ACE type (allow or deny) 
-) 
+# Note: Entry can only be created if DOMAIN\User is replaced with a valid principal.
+
+$ace = [System.Security.AccessControl.FileSystemAccessRule]::new(
+    'DOMAIN\User',                      # Identity reference
+    'FullControl',                      # FileSystemRights
+    'ContainerInherit, ObjectInherit',  # InheritanceFlags
+    'None',                             # PropagationFlags
+    'Allow'                             # ACE type (allow or deny)
+)
