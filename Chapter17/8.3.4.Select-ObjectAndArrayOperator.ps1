@@ -2,7 +2,7 @@ Get-NetAdapter | Select-Object @(
     'Name'
     'Status'
     'MacAddress'
-    LinkSpeed'
+    'LinkSpeed'
     @{ Name = 'IPAddress'; Expression = {
         ($_ | Get-NetIPAddress).IPAddress
     }}
