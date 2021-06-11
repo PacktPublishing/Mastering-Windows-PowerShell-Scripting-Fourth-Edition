@@ -1,6 +1,6 @@
 # Applies to Windows PowerShell only.
 
-[PowerShell]::Create([InitialSessionState]::CreateDefault).AddCommand('Get-PSSnapIn').Invoke().Name
+[PowerShell]::Create([InitialSessionState]::CreateDefault()).AddCommand('Get-PSSnapIn').Invoke().Name
 
 # Expects output:
 #

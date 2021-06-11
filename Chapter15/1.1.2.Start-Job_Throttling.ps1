@@ -1,5 +1,5 @@
-$jobs = 1..50
-foreach ($job in $jobs) {
+$listOfJobs = 1..50
+foreach ($job in $listOfJobs) {
     while (@(Get-Job -State Running).Count -gt 10) {
         Start-Sleep -Seconds 10
     }
