@@ -1,6 +1,9 @@
-@(
+$array = @(
     'Anna'
     'Ben'
     'Chris'
     'David'
-) | Where-Object { $_ -notlike 'a*' -and $_ -notlike 'b*' }
+)
+if ($array -notmatch '^[ab]') {
+    Write-Host "No names starting A or B"
+}
