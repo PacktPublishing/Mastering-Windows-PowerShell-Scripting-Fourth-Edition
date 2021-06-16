@@ -1,3 +1,3 @@
-trap [InvalidOperationException], [ArgumentException] {
-    Write-Host 'Argument or InvalidOperation exception'
+trap [ArgumentException] {
+    Write-Host 'Argument exception'
 }
