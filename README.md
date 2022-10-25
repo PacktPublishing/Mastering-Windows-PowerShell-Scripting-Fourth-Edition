@@ -18,3 +18,7 @@ By the end of this PowerShell book, you will be an expert in scripting with Powe
 6. Write .NET classes with ease within PowerShell
 7. Create and implement regular expressions in PowerShell scripts
 8. Make use of advanced techniques to define and restrict the behavior of parameters
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781800206540">https://packt.link/free-ebook/9781800206540 </a> </p>
